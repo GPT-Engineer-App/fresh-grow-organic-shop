@@ -48,6 +48,10 @@ const Sidebar = () => (
               {item.title}
             </SidebarNavLink>
           ))}
+          <SidebarNavLink to="/products">
+            <Package2 className="h-4 w-4" />
+            Products
+          </SidebarNavLink>
         </nav>
       </div>
     </div>
@@ -76,6 +80,10 @@ const MobileSidebar = () => (
             {item.title}
           </SidebarNavLink>
         ))}
+        <SidebarNavLink to="/products">
+          <Package2 className="h-4 w-4" />
+          Products
+        </SidebarNavLink>
       </nav>
     </SheetContent>
   </Sheet>

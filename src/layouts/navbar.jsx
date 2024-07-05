@@ -44,6 +44,10 @@ const DesktopNav = () => (
         {item.title}
       </NavItem>
     ))}
+    <NavItem to="/products" className="flex items-center gap-2 text-lg font-semibold md:text-base">
+      <Package2 className="h-4 w-4" />
+      Products
+    </NavItem>
   </nav>
 );
 
@@ -69,6 +73,10 @@ const MobileNav = () => (
             {item.title}
           </NavItem>
         ))}
+        <NavItem to="/products" className="flex items-center gap-2 text-lg font-semibold">
+          <Package2 className="h-4 w-4" />
+          Products
+        </NavItem>
       </nav>
     </SheetContent>
   </Sheet>
