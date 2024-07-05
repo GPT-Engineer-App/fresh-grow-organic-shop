@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
@@ -24,6 +25,7 @@ const Layout = () => {
       <main className="flex-grow overflow-auto">
         <Outlet />
       </main>
+      <Footer />
     </div>
   );
 };
